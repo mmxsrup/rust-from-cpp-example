@@ -1,11 +1,11 @@
 [package]
-name = "rustlib"
+name = "rustfunc"
 version = "0.1.0"
 authors = ["Yuichi Sugiyama <sugiyama98i@gmail.com>"]
 edition = "2018"
 
 [lib]
-name="rustlib"
+name="rustfunc"
 crate-type = ["cdylib"]
 
 [dependencies]

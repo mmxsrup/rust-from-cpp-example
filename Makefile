@@ -1,5 +1,5 @@
 build:
-	g++ -I./include -L./target/debug -o main main.cpp
+	g++ main.cpp -o main -I./include -L./target/debug -lrustfunc -lpthread -ldl
 
 run:
 	./main

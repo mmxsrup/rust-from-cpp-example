@@ -6,6 +6,6 @@ edition = "2018"
 
 [lib]
 name="rustfunc"
-crate-type = ["cdylib"]
+crate-type = ["staticlib"]
 
 [dependencies]
